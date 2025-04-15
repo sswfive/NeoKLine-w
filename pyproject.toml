@@ -1,0 +1,28 @@
+[project]
+name = "neokline-private"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib==3.8.0",
+    "mplfinance==0.12.10b0",
+    "openpyxl==3.1.2",
+    "pandas==2.1.1",
+    "seaborn==0.13.2",
+    "st-annotated-text==4.0.1",
+    "streamlit==1.41.0",
+    "streamlit-authenticator==0.2.3",
+    "streamlit-local-storage==0.0.25",
+    "streamlit-modal==0.1.2",
+    "tables",
+    "tushare==1.4.21",
+    "xlrd==2.0.1",
+    "requests==2.31.0",
+    "PyYAML==6.0.1",
+    "qrcode>=8.1",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
